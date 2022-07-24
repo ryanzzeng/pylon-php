@@ -1,0 +1,28 @@
+{
+    "name": "ruijiangzeng/pylon-php",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ruijiangzeng",
+            "email": "zengruijiang@gmail.com"
+        }
+    ],
+    "files": [
+        "app/Helper.php"
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "ext-json": "*",
+        "ramsey/uuid": "^4.3"
+    },
+    "scripts": {
+        "print-film": [
+            "docker exec pylon_php php index.php"
+        ]
+    }
+}
