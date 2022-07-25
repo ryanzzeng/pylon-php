@@ -21,6 +21,9 @@
         "ramsey/uuid": "^4.3"
     },
     "scripts": {
+        "setup-local": [
+            "docker exec pylon_php composer install"
+        ],
         "print-film": [
             "docker exec pylon_php php index.php"
         ]

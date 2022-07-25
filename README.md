@@ -5,6 +5,9 @@
     ```
     docker-compose up --build -d
     ```
+    ```
+    composer setup-local
+    ```
 3. Run task:
     ```
     composer print-film
