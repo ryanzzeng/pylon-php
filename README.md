@@ -10,6 +10,9 @@
     composer print-film
     ```
 
+4. Sequence Diagram
+
+![](diagram.jpeg)
 
 ## Author
 Ryan Zeng(zengruijiang@gmail.com)
